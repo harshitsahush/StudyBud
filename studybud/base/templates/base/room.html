@@ -2,6 +2,10 @@
 
 {%block content%}
 
-    <h1> ROOM </h1>
+    <h1> 
+        {% if room %}
+            {{room.name}}
+        {% endif %}
+    </h1>
 
 {% endblock %}
